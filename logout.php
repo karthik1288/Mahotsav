@@ -1,0 +1,9 @@
+<?php
+session_start();
+$_SESSEION['vmid']='';
+$_SESSEION['name']='';
+session_destroy();
+$_SESSION['src']="logout-successfull.html";
+header("location:index.php");
+exit();
+?> 

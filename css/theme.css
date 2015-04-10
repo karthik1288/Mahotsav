@@ -1,0 +1,22 @@
+/* ----- Logo ----- */
+#logo a {
+	background-image:url('../images/butterfly2.png'); 
+	min-height:0;
+	height:40px;
+}
+/* ----- Backgrounds ----- */
+#logo{
+	background-image:none;	background-color:#a7c520;
+}
+#container, html.embed{
+	background-color:#f5f6d4;
+}
+/* ----- Borders ----- */
+#container{
+	border:0 solid #cccccc;
+}
+.wufoo .info, .wufoo .paging-context{
+	border-bottom:1px dotted #a7c520;
+}
+
+

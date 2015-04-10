@@ -1,0 +1,33 @@
+#container{
+	text-align:left;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#container, #bottom{
+	margin:0 auto;
+	width:200px;
+}
+form.wufoo{
+	margin:20px 14px 0 14px;
+	padding:0 0 20px 0;
+	position:relative;
+}
+
+/* ----- LOGO ----- */
+
+#logo{
+	margin:0;
+	padding:0;
+	min-height:0;
+	background-color:#dedede;
+	text-indent:-9000px;
+	text-decoration:none;
+}
+#logo a{
+	min-height:40px;
+	height:40px;
+	display:block;
+	background:url(../images/wflogo.png) no-repeat left top;
+	overflow:hidden;
+}
+
